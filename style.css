@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte';
+    src: url('fontes/pepperoni_pizza.ttf') format('truetype');
+    font-weight: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F5EBDC;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+header {
+    background-color: #FFAA00;
+    min-height: 150px;
+}
+
+header h1 {
+    font-family: 'fonte', Arial, Helvetica, sans-serif;
+    color: #dd2100;
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px #0000007a;
+}
+
+header p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main {
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #00000065;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+main article {
+    text-indent: 0px;
+}
+
+div.localizacao {
+    background-color: #FFAA00;
+    color: #1a0606;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 5px 0px #0000003f;
+}
+
+div.horario {
+    background-color: #FFAA00;
+    color: #1a0606;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 5px 0px #0000003f;
+}
+
+div.contato {
+    background-color: #FFAA00;
+    color: #1a0606;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 5px 0px #0000003f;
+}
+
+nav {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: #F5EBDC;
+    padding: 10px;
+    box-shadow: 0px 7px 7px #0000005e;
+}
+
+nav > a {
+    font-family: 'fonte', Arial, Helvetica, sans-serif;
+    color: #502314;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #853a21;
+    color: #ce6006;
+}
+
+nav.imagem {
+    background-color: #ffaa0081;
+    box-shadow: 0px 7px 7px #000000;
+    
+}
+
+nav.imagem > a:hover {
+    background-color: #ffffff;
+}
+
+nav.imagem > a.foto1:hover {
+    background-color: #000000;
+}
+
+.foto1:hover {
+    background-color: blueviolet;
+}
+
+.cor {
+    background-color: #FFAA00;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.foto {
+    width: 100%;
+}
+
+div.rede h2 {
+    background-color: #ffffff;
+    padding: 20px 10px;
+}
+
+
+aside h2 {
+    font-family: 'fonte', Arial, Helvetica, sans-serif;
+    color: #ce6006;
+}
+footer {
+    text-align: center;
+    background-color: #E7C2A1;
+}
