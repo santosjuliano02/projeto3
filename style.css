@@ -9,6 +9,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    line-height: 1.5em;
 }
 
 body {
@@ -16,16 +17,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     text-indent: 30px;
+
 }
 
 header {
-    background-color: #FFAA00;
+    background-color: #ffaa00b6;
     min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header h1 {
     font-family: 'fonte', Arial, Helvetica, sans-serif;
-    color: #dd2100;
+    color: #853a21;
     text-align: center;
     font-size: 3em;
     font-weight: normal;
@@ -34,9 +38,12 @@ header h1 {
 }
 
 header p {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
 }
 
 main {
@@ -52,12 +59,16 @@ main {
 
 }
 
+main p {
+    font-size: 1em;
+}
+
 main article {
     text-indent: 0px;
 }
 
 div.localizacao {
-    background-color: #FFAA00;
+    background-color: #ffaa00b6;
     color: #1a0606;
     padding: 10px;
     margin-bottom: 10px;
@@ -67,7 +78,7 @@ div.localizacao {
 }
 
 div.horario {
-    background-color: #FFAA00;
+    background-color: #ffaa00b6;
     color: #1a0606;
     padding: 10px;
     margin-bottom: 10px;
@@ -77,7 +88,7 @@ div.horario {
 }
 
 div.contato {
-    background-color: #FFAA00;
+    background-color: #ffaa00b6;
     color: #1a0606;
     padding: 10px;
     margin-bottom: 10px;
@@ -89,8 +100,9 @@ div.contato {
 nav {
     font-family:  Arial, Helvetica, sans-serif;
     font-size: 2em;
-    background-color: #F5EBDC;
+    background-color: #ffaa00b6;
     padding: 10px;
+    margin-bottom: 20px;
     box-shadow: 0px 7px 7px #0000005e;
 }
 
@@ -110,9 +122,8 @@ nav > a:hover {
 }
 
 nav.imagem {
-    background-color: #ffaa0081;
-    box-shadow: 0px 7px 7px #000000;
-    
+    background-color: #ffaa00b6;
+    box-shadow: 0px 7px 7px #0000005e;
 }
 
 nav.imagem > a:hover {
@@ -123,14 +134,16 @@ nav.imagem > a.foto1:hover {
     background-color: #000000;
 }
 
-.foto1:hover {
-    background-color: blueviolet;
-}
-
 .cor {
-    background-color: #FFAA00;
-    color: #ffffff;
+    background-color: #ffaa00b6;
+    color: #000000;
     font-weight: bold;
+    text-align: center;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    margin: auto;
 }
 
 .foto {
@@ -142,11 +155,11 @@ div.rede h2 {
     padding: 20px 10px;
 }
 
-
 aside h2 {
     font-family: 'fonte', Arial, Helvetica, sans-serif;
-    color: #ce6006;
+    color: #502314;
 }
+
 footer {
     text-align: center;
     background-color: #E7C2A1;
